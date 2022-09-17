@@ -39,11 +39,6 @@
     color: var(--branco);
 }
 
-#ilustrações {
-    background-color: var(--roxo);
-    color: var(--branco);
-}
-
 @media screen and (min-width: 1024px) {
     .banner {
         padding: 300px 0 50px 0;
