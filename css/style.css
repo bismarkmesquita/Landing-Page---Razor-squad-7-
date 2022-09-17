@@ -1,0 +1,41 @@
+@import url(../css/swiper-bundle.min.css);
+
+@import url(../css/reset.css);
+@import url(../css/header.css);
+@import url(../css/banner.css);
+@import url(../css/cta.css);
+@import url(../css/oferta.css);
+@import url(../css/destaque.css);
+@import url(../css/perfil.css);
+@import url(../css/frase.css);
+@import url(../css/footer.css);
+
+@import url("https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css");
+
+:root {
+    --cinza: #B2B2B2;
+    --off-white: #f2f2f2;
+    --roxo: #7115F2;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --chumbo: #242424;
+}
+
+body {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--preto);
+}
+
+.container {
+    margin: 0 5vw;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 7%;
+    }
+}

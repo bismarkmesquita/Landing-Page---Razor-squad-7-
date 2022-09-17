@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Razor Computadores</title>
+</head>
+<body> 
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+
+                <div class="header-logo">
+                    <a href="index.html"><img src="img/logo.png" alt="Logo Razor" class=""></a>
+                </div>
+
+                <nav class="navigation-header" id="navigation-header">
+                    <button class="mobile-menu" onclick="toggleSidebar()">x</button>
+
+                    <p>Índice</p>
+
+                    <a href="#">Produtos</a>
+                    <a href="#">Para empresas</a>
+                    <a href="#">Suportes</a>
+                    <a href="#">Minha Conta</a>
+                </nav>
+
+                <button class="mobile-menu" onclick="toggleSidebar()">
+                    <div class="linha-1"></div>
+                    <div class="linha-2"></div>
+                    <div class="linha-3"></div>
+                </button>
+
+                <div class="header-icons">
+                    <i class='bx bxs-shopping-bag'></i>
+                    <i class='bx bx-search'></i>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main class="main" tabindex="0" onclick="closeSidebar()">
+        <section class="banner">
+            <div class="container">
+                <div class="banner-content-01">
+                    <h1>O que você quer produzir hoje?</h1>
+                </div>
+                <div class="banner-content-02">
+                    <a href="#">Design 3D</a>
+                    <a href="#">Edição de Vídeo</a>
+                    <a href="#" id="ilustrações">Ilustrações</a>
+                    <a href="#">Motion Design</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-titulo">
+                    <h2>Ilustrações</h2>
+                </div>
+                <div class="cta-content">
+                    <div class="cta-content-01">
+                        <h2>Cresça no mercado com máquinas que acomanham a sua <b>criatividade</b>.</h2>
+                        <p>Não limite suas ideias, trabalhe com máquinas de alta performance que não te deixam na mão. </p>
+                        <a href="#">Encontre a sua</a>
+                    </div>
+                    <div class="cta-content-02">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1e5fx9LWH7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="oferta">
+            <div class="container">
+                <div class="oferta-content-01">
+                    <h2>Modelos recomendados</h2>
+                </div>
+                <div class="oferta-content-02">
+                    <div class="oferta-box">
+                        <img src="img/hard.png" alt="hard">
+                        <img src="img/talent.png" alt="Computador Talent" id="computador">
+                        <img src="img/talent-logo.svg" alt="Talent" class="computador-logo">
+                        <a href="#">Conhecer</a>
+                    </div>
+                    <div class="oferta-box">
+                        <img src="img/veryhard.png" alt="very hard">
+                        <img src="img/edge.png" alt="Computador Edge" id="computador">
+                        <img src="img/edge-logo.svg" alt="Edge" class="computador-logo" id="edge">
+                        <a href="#">Conhecer</a>
+                    </div>
+                    <div class="oferta-box">
+                        <img src="img/supremo.png" alt="supremo">
+                        <img src="img/virtuos.png" alt="Computador Virtuos" id="computador">
+                        <img src="img/virtuos-logo.svg" alt="Virtuos" class="computador-logo">
+                        <a href="#">Conhecer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="destaque">
+            <div class="container">
+                <div class="destaque-titulo">
+                    <h2>Destaque Supremo</h2>
+                </div> 
+                <div class="card">
+                    <div class="circle"></div>
+                    <div class="content">
+                        <h2>Virtuos</h2>
+                        <ul>
+                            <li><i class='bx bxs-chevrons-right'></i>Placa de vídeo de alta capacidade</li>
+                            <li><i class='bx bxs-chevrons-right'></i>Edição em alta resolução</li>
+                            <li><i class='bx bxs-chevrons-right'></i>Rápida leitura de dados</li>
+                            <li><i class='bx bxs-chevrons-right'></i>Maior velocidade por núcleo</li>
+                            <li><i class='bx bxs-chevrons-right'></i>Armazenagem rápida</li>
+                        </ul>
+                        <a href="#">Conhecer</a>
+                    </div>
+                    <img src="img/virtuos.png" alt="Computador Virtuos">
+                </div>
+            </div>
+        </section>
+
+        <section class="perfil">
+            <div class="container">
+                <div class="perfil_titulo">
+                    <h2 class="home_titulo"> < The Last of Seven > </h2>
+                </div>
+
+                <!--Carrossel-->
+                <div class="perfil_container">
+                    <div class="testimonial mySwiper">
+                        <div class="testi-content swiper-wrapper">
+
+                            <div class="slide swiper-slide">
+                                <div class="card-perfil">
+                                    <div class="imgBx">
+                                        <img src="img/bismark.jpg" alt="Bismark">
+                                    </div>
+                                    <div class="content">
+                                        <div class="details">
+                                            <h2>Bismark Mesquita<br><span>Web Developer</span></h2>
+                                            <div class="data">
+                                                <h3>20<br><span>Anos</span></h3>
+                                                <h3>Fortaleza<br><span>CE</span></h3>
+                                                <h3>750<br><span>Stars</span></h3>
+                                            </div>
+                                            <div class="actionBtn">
+                                                <a href="#"><i class='bx bxl-github'></i></a>
+                                                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide swiper-slide">
+                                
+                                <div class="card-perfil">
+                                    <div class="imgBx">
+                                        <img src="img/bismark.jpg" alt="Bismark">
+                                    </div>
+                                    <div class="content">
+                                        <div class="details">
+                                            <h2>Bismark Mesquita<br><span>Web Developer</span></h2>
+                                            <div class="data">
+                                                <h3>20<br><span>Anos</span></h3>
+                                                <h3>Fortaleza<br><span>CE</span></h3>
+                                                <h3>750<br><span>Stars</span></h3>
+                                            </div>
+                                            <div class="actionBtn">
+                                                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                                                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="swiper-button-next nav-btn"></div>
+                        <div class="swiper-button-prev nav-btn"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="frase">
+            <div class="container">
+                <div class="frase-content">
+                    <img src="" alt="">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h2>Squad 7 - #TeuFuturo</h2>
+                <img src="img/logo.png" alt="Logo Razor">
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/mobile-nav.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/perfil.js"></script>
+</body>
+</html>
