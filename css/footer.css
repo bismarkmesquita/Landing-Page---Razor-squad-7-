@@ -16,3 +16,12 @@
     margin-bottom: 1.5em;
 }
 
+.footer-content h2 a {
+    color: var(--branco);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer-content h2 a:hover {
+    color: var(--roxo);
+}
