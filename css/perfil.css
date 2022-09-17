@@ -2,7 +2,7 @@
     text-align: center;
     margin: 7em 0 0 0;
     padding: 7em 0;
-    background: linear-gradient(180deg, rgba(113, 21, 242, 0) 0%, #7115F2 97.88%);
+    background: linear-gradient(180deg, rgba(113, 21, 242, 0) 0%, rgba(113, 21, 242, 0.9) 97.88%);
 }
 
 /* titulo */
