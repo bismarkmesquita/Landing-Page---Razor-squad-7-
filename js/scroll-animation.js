@@ -1,6 +1,17 @@
 const scrollAnima = document.querySelector('[data-anima="scroll"]')
 
-const metadeWindow = window.innerHeight * 5.5
+var largura = window.screen.width
+
+var n = null
+if (largura < 1024) {
+    n = 10
+} else {
+    n = 5.5
+}
+
+const metadeWindow = window.innerHeight * n
+
+console.log (n)
 
 function animarScroll () {
 
