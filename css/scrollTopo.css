@@ -21,4 +21,5 @@
 .show-button .topo {
     right: 20px;
     transition: 0.5s all;
+    z-index: 1;
 }
