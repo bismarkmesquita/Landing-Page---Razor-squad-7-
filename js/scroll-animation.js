@@ -11,8 +11,6 @@ if (largura < 1024) {
 
 const metadeWindow = window.innerHeight * n
 
-console.log (n)
-
 function animarScroll () {
 
     const topoItem = scrollAnima.getBoundingClientRect().top
